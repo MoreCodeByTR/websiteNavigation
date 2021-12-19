@@ -1,0 +1,184 @@
+/* 清除默认 */
+
+html {
+    /* -webkit-filter: grayscale(100%); */
+    /* cursor: move; */
+    /* -webkit-filter: blur(2px); */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: #059490;
+    border-bottom: 2px solid black;
+}
+
+#leftSide {
+    float: left;
+    width: 20%;
+    height: 1000px;
+    background-color: cadetblue;
+}
+
+#middleSide {
+    float: left;
+    width: 0.5%;
+    height: 1000px;
+    background-color: rgba(39, 38, 38, 0.808);
+}
+
+#rightSide {
+    float: left;
+    width: 79.5%;
+    background-color: rgb(91, 167, 150);
+}
+
+/* 头像 */
+
+#photo {
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 5px;
+}
+
+#photo img {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+#header #myname {
+    float: left;
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(250, 121, 1);
+}
+
+#header #slogan {
+    display: inline-block;
+    position: absolute;
+    left: calc(50% + 70px);
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+/* 网页 */
+
+#rightSide #web {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    /* height: 800px; */
+    background-color: rgba(80, 255, 226, 0.425);
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+#rightSide #article {
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    background-color: rgba(12, 238, 106, 0.425);
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+#rightSide #web #learning {
+    width: 30%;
+    border-left: 2px solid darkorchid;
+    /* background-color: crimson; */
+}
+
+#rightSide #web #share {
+    width: 30%;
+    border-left: 2px solid rgb(50, 78, 204);
+    /* background-color: rgb(183, 220, 20); */
+}
+
+#rightSide #web #entertainment {
+    width: 30%;
+    border-left: 2px solid rgb(28, 5, 94);
+    /* background-color: rgb(183, 220, 20); */
+}
+
+#rightSide #web #title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#rightSide #web a {
+    display: block;
+    width: fit-content;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#rightSide #web li {
+    list-style: decimal;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#rightSide #web li img {
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    transform: translateY(8px);
+}
+
+#rightSide #article #blogs {
+    margin-left: 10px;
+    border-left: 2px solid darkorchid;
+    /* background-color: crimson; */
+}
+
+#rightSide #article #title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#rightSide #article a {
+    display: block;
+    width: fit-content;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#rightSide #article li {
+    list-style: decimal;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#personalData {
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+#personalData svg {
+    margin-top: 10px;
+    margin-left: 20px;
+}

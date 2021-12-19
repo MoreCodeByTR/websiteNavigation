@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">我说水水水水和</a>
+    <button onclick="newWindow()">点击</button>
+    <button onclick="clo()">点击</button>
+</body>
+<script>
+document.write("<br>"+window.innerWidth+"<br>"+window.innerHeight)
+document.write("<br>"+window.outerWidth+"<br>"+window.outerHeight)
+
+var wroxWin;
+
+function newWindow(){
+    wroxWin=window.open("https://www.baidu.com/","_blank","height=800,width=1200,resizeable=yes,top=100,left=100")
+}
+
+function clo(){
+    wroxWin.close();
+}
+
+document.write("<br>"+location.pathname);
+document.write("<br>"+location.href);
+document.write("<br>"+location.port);
+document.write("<br>"+location.host);
+document.write("<br>"+location.hostname);
+document.write("<br>"+location.protocol);
+// location.assign('https://www.baidu.com/')
+document.write("<br>"+navigator.vendor);
+document.write("<br>"+navigator.plugins.length);
+
+for(var i=0;i<navigator.plugins.length;i++){
+    document.write('<br>'+navigator.plugins[i].name);
+}
+
+document.write("<br>"+screen.width);
+</script>
+</html>

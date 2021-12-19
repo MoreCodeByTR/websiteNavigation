@@ -1,0 +1,148 @@
+{
+    "learning": [
+        {
+            "name": "Vue官网",
+            "href": "https://cn.vuejs.org/v2/guide/",
+            "ico": "./pic/icons/vue.ico"
+        },
+        {
+            "name": "阿里巴巴",
+            "href": "https://re.1688.com/",
+            "ico": "./pic/icons/alibaba.ico"
+        },
+        {
+            "name": "W3school",
+            "href": "https://www.w3school.com.cn/",
+            "ico": "./pic/icons/w3cschool.ico"
+        },
+        {
+            "name": "React官网",
+            "href": "https://react.docschina.org/",
+            "ico": "./pic/icons/react.ico"
+        },
+        {
+            "name": "Runoob",
+            "href": "https://www.runoob.com/",
+            "ico": "./pic/icons/runoob.ico"
+        },
+        {
+            "name": "百度一下",
+            "href": "https://www.baidu.com/",
+            "ico": "./pic/icons/baidu.ico"
+        },
+        {
+            "name": "有道在线翻译",
+            "href": "http://fanyi.youdao.com/",
+            "ico": "./pic/icons/smart.ico"
+        },
+        {
+            "name": "GitHub",
+            "href": "https://github.com/MoreCodeByTR",
+            "ico": "./pic/icons/github.ico"
+        },
+        {
+            "name": "LeetCode",
+            "href": "https://leetcode-cn.com/",
+            "ico": "./pic/icons/leetcode.ico"
+        },
+        {
+            "name": "navicat官方手册",
+            "href": "https://www.navicat.com.cn/manual/online_manual/cn/navicat/win_manual/index.html",
+            "ico": "./pic/icons/library.ico"
+        },
+        {
+            "name": "echarts官网",
+            "href": "https://www.echartsjs.com/zh/index.html",
+            "ico": "./pic/icons/echarts.ico"
+        }
+    ],
+    "share": [
+        {
+            "name": "ThreeJs文档",
+            "href": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene",
+            "ico": "./pic/icons/threejs.ico"
+        },
+        {
+            "name": "阿里巴巴图标",
+            "href": "https://www.iconfont.cn/",
+            "ico": "./pic/icons/aliicon.ico"
+        },
+        {
+            "name": "图扑WebGl",
+            "href": "https://www.hightopo.com/demos/index.html",
+            "ico": "./pic/icons/tupu.ico"
+        },
+        {
+            "name": "简书",
+            "href": "https://www.jianshu.com/",
+            "ico": "./pic/icons/jianshu.ico"
+        },
+        {
+            "name": "Typora笔记",
+            "href": "https://www.typora.io/",
+            "ico": "./pic/icons/typora.ico"
+        },
+        {
+            "name": "武汉理工大学图书馆",
+            "href": "http://lib.whut.edu.cn/",
+            "ico": "./pic/icons/library.ico"
+        },
+        {
+            "name": "智慧理工大",
+            "href": "http://zhlgd.whut.edu.cn/tp_up/view?m=up#act=portal/viewhome",
+            "ico": "./pic/icons/smart.ico"
+        },
+        {
+            "name": "研究生教育管理系统",
+            "href": "http://218.197.101.24/",
+            "ico": "./pic/icons/smart.ico"
+        },
+        {
+            "name": "中国知网",
+            "href": "https://www.cnki.net/",
+            "ico": "./pic/icons/cnki.ico"
+        }
+    ],
+    "entertainment": [
+        {
+            "name": "BiliBili弹幕网",
+            "href": "https://www.bilibili.com/",
+            "ico": "./pic/icons/bilibili.ico"
+        },
+        {
+            "name": "优酷视频",
+            "href": "https://www.youku.com/",
+            "ico": "./pic/icons/youku.ico"
+        },
+        {
+            "name": "网易云音乐",
+            "href": "https://music.163.com/",
+            "ico": "./pic/icons/favicon.ico"
+        },
+        {
+            "name": "微博",
+            "href": "https://weibo.com/",
+            "ico": "./pic/icons/weibo.ico"
+        },
+        {
+            "name": "公式编辑器",
+            "href": "https://math.edrawsoft.cn/index.html",
+            "ico": "./pic/icons/library.ico"
+        },
+        {
+            "name": "TP-Link管理",
+            "href": "http://tplogin.cn/",
+            "ico": "./pic/icons/tplink.ico"
+        },
+        {
+            "name": "京东商城",
+            "href": "https://www.jd.com/",
+            "ico": "./pic/icons/jd.ico"
+        },
+        {
+            "name": "牛客网",
+            "href": "https://www.nowcoder.com/",
+            "ico": "./pic/icons/smart.ico"
+        }
+    ]
+}
